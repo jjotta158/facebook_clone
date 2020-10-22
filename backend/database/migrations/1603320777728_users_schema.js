@@ -9,6 +9,7 @@ class UsersSchema extends Schema {
       table.increments()
       table.string('name', 100).notNullable();
       table.string('email',100).notNullable().unique();
+      table.string('password').notNullable();
       table.text('description');
       table.text('avatarLink');
       table.json('friends_id_list');      

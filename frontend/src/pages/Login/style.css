@@ -1,0 +1,110 @@
+#loginPage {
+    width:100%;
+    height:100vh;
+    background-color:#f0f2f5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+#loginPage section {
+    width:35%;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#loginPage section h1 {
+    color:#1877F2;
+    font-family: 'Spartan';
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom:-5px;
+}
+
+#loginPage section h3 {
+    font-family: 'Comfortaa';
+    font-size: 1.2rem;
+    color:#444;
+    text-align: justify;
+}
+
+#loginPage section:last-of-type {
+    align-items: center;
+}
+
+#loginPage section:last-of-type div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width:100%;
+    max-width:25rem;
+    height:90%;
+    background-color: white;
+    border-radius:10px;
+    box-shadow: 4px 4px 8px 4px rgba(104, 102, 102, 0.1);
+}
+
+#loginPage section:last-of-type div form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:0.5rem;
+    width:100%;
+}
+
+#loginPage section:last-of-type div form input {
+    width:92%;
+    max-width:30rem;
+    height:2.2rem;
+    border:2px solid #ccc;
+    border-radius:5px;
+    margin:5px;
+    text-indent: 10px;
+    color:#666;
+    font-weight: 600;
+}
+
+#loginPage section:last-of-type div form button {
+    width:93%;
+    max-width:30rem;
+    height:3rem;
+    border-radius:5px;
+    color:white;
+    border:none;
+    border:2px solid #1877F2;
+    background-color:#1877F2;
+    font-family: 'Spartan';
+    font-size:18px;
+    font-weight: bolder;
+    text-align: center;
+    margin:0.5rem;
+}
+
+#loginPage section:last-of-type div a {
+    text-decoration: none;
+    font-family:'Comfortaa';
+    font-size:15px;
+    margin:0.5rem;
+}
+
+#loginPage section:last-of-type div button {
+    width:70%;
+    max-width:30rem;
+    height:2.7rem;
+    border-radius:5px;
+    color:white;
+    border:none;
+    border:2px solid #4AB72B;
+    background-color:#4AB72B;
+    font-family: 'Spartan';
+    font-size:13px;
+    font-weight: bolder;
+    text-align: center;
+    margin:0.5rem;
+}

@@ -1,0 +1,11 @@
+{
+  "name": "facebook_clone_with_MERN",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jjotta158/facebook_clone_with_MERN.git",
+  "license": "MIT",
+  "dependencies": {
+    "@adonisjs/cli": "^4.0.12",
+    "axios": "^0.20.0"
+  }
+}
